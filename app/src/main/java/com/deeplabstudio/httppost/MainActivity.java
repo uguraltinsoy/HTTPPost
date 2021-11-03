@@ -16,16 +16,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        try {
-            JSONObject json = new JSONObject();
-            json.put("serviceId","yt");
-            json.put("videoId", "J3k54wDsjP4");
-            json.put("formatId","1");
-            String result = JSONPost.postJSON("URL", json);
-            System.out.println("SOUT " + result);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        String result = JSONPost.postJSON("URL", "{\"name\":\"Uğur\",\"surname\":\"Altınsoy\",\"data\":{\"title\":\"http post\",\"author\":\"Uğur ALtınsoy\"}}");
     }
 }
