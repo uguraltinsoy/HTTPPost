@@ -32,8 +32,8 @@ or Maven:
 ```
 <dependency>
 	<groupId>com.github.uguraltinsoy</groupId>
-	<artifactId>UrlToJson</artifactId>
-	<version>1.0.1</version>
+	<artifactId>HTTPPost</artifactId>
+	<version>1.0.0</version>
 </dependency>
 ```
 
